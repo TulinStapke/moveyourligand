@@ -30,7 +30,7 @@ def ReadReceptor( ):
                 grid_max_y=float(max(y))
                 grid_min_z=float((min(z)+max(z))*2/3)
                 grid_max_z=float((max(z))+10)
-                delta=15
+                delta=2
                 nr_bins_x=int((grid_max_x - grid_min_x)/delta)
                 nr_bins_y=int((grid_max_y - grid_min_y)/delta)
                 nr_bins_z=int((grid_max_z - grid_min_z)/delta)
