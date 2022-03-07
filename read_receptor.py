@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+############ By Tülin Stapke - 2022 ############
+
+
+
 import os
 import sys
 import numpy as np
