@@ -13,3 +13,6 @@ with os.scandir(path_to_ligands) as lig:
             file_data=file_data.replace( 'ATOM', 'HETATM')
         with open(each_file, 'w') as file:
             file.write(file_data)
+# When changing from ATOM to HETATM, one more space is generated which caused the error woth rosetta. Fix this error with running the command
+#line on the teminal: for f in *.pdb; do sed -i 's/HETATM  /HETATM/g' "$f" ; done          
+            
