@@ -54,7 +54,7 @@ cutoff_cylinder = int(max(y_rec) - y_rec_mean) #how far should ligands be fm the
 
 
 #z_rec_ceiling = max(z_rec) +10 
-y_rec_ceiling = max(y_rec) +15
+y_rec_ceiling = max(y_rec) +5
 
 #y_rec_bottom =  (min(y_rec)+max(y_rec))*1/3   
 #print(z_rec_mean, y_rec_mean, cutoff_cylinder, y_rec_ceiling)
